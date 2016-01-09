@@ -1,8 +1,66 @@
-<!DOCTYPE HTML>
+<!doctype html>
+<!--    
+                ⟡ ◦ ◌° 
+              ◦° ◌ ◯ ◦ ⟡
+Why you pressed CTRL+U or F12? Or did you click on Inspect element?
+
+    #BlueBook code decryption
+import sys
+def sieve(n):
+    x = [1] * n
+    x[1] = 0
+    for i in range(2,n/2):
+            j = 2 * i
+            while j < n:
+                    x[j]=0
+                    j = j+i
+    return x
+
+def prime(n,x):
+    i = 1
+    j = 1
+    while j <= n:
+            if x[i] == 1:
+                    j = j + 1
+            i = i + 1
+    return i - 1
+x=sieve(10000)
+code = [1206,301,384,5]
+key =[1,1,2,2,]
+
+sys.stdout.write("".join(chr(i) for i in [73,83,66,78,32,61,32]))
+for i in range (0,4):
+    sys.stdout.write(str(prime(code[i],x)-key[i]))
+
+print
+    
+    
+    You seems to be curious... Please do contact anyone of them:
+    
+    
+    ╭──────────────────────────────────────────╮
+    │ ≡ THE INSANE GUY                         │
+    ╞══════════════════════════════════════════╡
+    │                                          │
+    │ PRIYESH VISHWAKARMA                      │
+    ├──────────┬───────────────────────────────┤
+    │ Email    │ dpriyeshvk@live.co.uk         │
+    ├──────────┼───────────────────────────────┤
+    │ Twitter  │ @vkpriyesh                    │
+    ├──────────┼───────────────────────────────┤
+    │ Telegram │ @vkpriyesh                    │
+    ├──────────┼───────────────────────────────┤
+    │ Location │ Indore, IN                    │
+    ╰──────────┴───────────────────────────────╯
+    
+-->
 <html>
 	<head>
 		<title>nAndArt | Nandan Panchal</title>
 		<meta charset="utf-8" />
+		<meta name="description" content="Nandan Panchal">
+		<meta name="keywords" content="painting, artwork, art, drawings, craft, artmark, nandan panchal, nandu, nandan, artistic, abstract art, oil paintings, paintings, acrylic, abstract styles, pastel, portrait, body figure, body painting, landscape painting, portrait painting, figure paintings, watercolor">
+		<meta name="author" content="UnTitled Computation">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -25,6 +83,17 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
+		<!-- Google Analytics Goes here  -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-72207799-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 	</head>
 	<body>
 
